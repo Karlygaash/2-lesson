@@ -1,0 +1,144 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 405px;
+    margin-top: 20px;
+
+
+}
+
+.block_1{
+    border: 1px solid #BFC9CA ;
+    border-radius: 10px;
+    position: relative;
+}
+
+.block_2{
+    border: 1px solid #BFC9CA ;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.block_3{
+    border: 1px solid #BFC9CA ;
+    border-radius: 10px;
+    position: relative;
+}
+
+.image{
+    width: 300px;
+    height: 180px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.prices{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.discount_credit{
+    margin-left: 10px;
+    background-color: #F4D03F ;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.title{
+    margin-left: 15px;
+    margin-top: 17px;
+    font-size: 20px;
+    color:RoyalBlue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.description{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.additional{
+    display: flex;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.new{
+    color: white;
+    background-color: #2CC10B;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.dealer{
+    color: white;
+    background-color: #848484;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.under{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    display: flex;
+    color: #848484;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    align-items: end;
+}
+
+.city_date{
+    display: flex;
+    flex-direction: column;
+}
+
+.view{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.date{
+    margin-top: 10px;
+}
+
+.icons{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+}
+
+.icon_triangle{
+    width: 23px;
+    height: 23px;
+    margin-right: 3px;
+}
+
+.icon_champion{
+    width: 23px;
+    height: 23px;
+}

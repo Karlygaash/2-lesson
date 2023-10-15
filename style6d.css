@@ -1,0 +1,50 @@
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.block_inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.txt_1{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.txt_2{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.txt_3{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.txt_11{
+    position: absolute;
+    right: 1px;
+}
+.txt_22{
+    position: absolute;
+    bottom: 1px;
+}
+
+.txt_33{
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
+

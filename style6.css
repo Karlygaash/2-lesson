@@ -1,0 +1,81 @@
+.block_a{
+    background-color: aqua;
+    width: 130px;
+    height: 130px;
+    position: relative;
+}
+
+.txt_a{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;   
+}
+
+.block_b{
+    background-color: aqua;
+    width: 130px;
+    height: 130px;
+    position: relative;
+}
+
+.txt_b{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    
+}
+
+.txt_bb{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+.block_c{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block_cc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt_c1{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.txt_c2{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+.txt_c3{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.txt_cc2{
+   position: absolute; 
+   bottom: 2px;
+   left: 2px;
+}
+
+.txt_cc3{
+    position: absolute; 
+    right: 2px;
+ }
